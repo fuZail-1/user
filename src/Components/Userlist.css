@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+.text{
+   font-family: 'Courier New', monospace;
+   font-size: medium;
+   line-height: 30px;
+}
+
+.box{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: 0 20px 30px rgba(0,0,0,0.50), 0 4px 10px rgba(0,0,0,0.23);
+}
+.icon:hover{
+    color: green !important;
+    border-color: yellowgreen !important;
+  
+}
